@@ -7,5 +7,4 @@ for index in range(0, len(inp)):
   num = inp[index]
   if num in oldDigit:
     total = total + int(num)
-  index = index + 1
-print(total)	
+print("Output: " + str(total))
