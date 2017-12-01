@@ -11,8 +11,6 @@ print("Output part1: " + str(total))
 # part two
 total = 0
 for index in range(0, len(inp)):
-  index22 = index + int(len(inp) / 2)
-  index2 = index22 if index22 < len(inp) else index22 - len(inp)
-  if inp[index] in inp[index2]:
-    total = total + int(inp[index2])
+  if inp[index] in inp[(index + len(inp) // 2) % len(inp)]:
+    total = total + int(inp[index])
 print("Output part2: " + str(total))
