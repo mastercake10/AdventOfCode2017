@@ -3,8 +3,6 @@ inp = list(input)
 total = 0
 
 for index in range(0, len(inp)):
-  oldDigit = inp[index -1]
-  num = inp[index]
-  if num in oldDigit:
-    total = total + int(num)
+  if inp[index] in inp[index-1]:
+    total = total + int(inp[index])
 print("Output: " + str(total))
