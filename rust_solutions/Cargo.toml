@@ -1,0 +1,9 @@
+[package]
+
+name = "rust_solutions"
+version = "0.0.1"
+authors = ["Linus"]
+
+[[bin]]
+name = "day5"
+path = "src/day5.rs"
