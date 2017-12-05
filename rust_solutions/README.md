@@ -1,7 +1,7 @@
-#🎄 AdventOfCode2017 🎄 #
+# 🎄 AdventOfCode2017 🎄 #
  Advent Of Code 2017 rust solutions
  
- # Compiling
+ ## Compiling
  
  All advents may be compiled using cargo.
  
