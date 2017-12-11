@@ -22,7 +22,7 @@ def calcKnotHash(lengths, rounds=1):
 def formatHexDigit(digit):
     if len(digit) == 3:
         return "0" + digit[2:3]
-    return digit[2:4];
+    return digit[2:4]
 
 ran = calcKnotHash(map(int, input.split(",")))
 print("Output part1: " + str(ran[0] * ran[1]))
