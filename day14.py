@@ -59,6 +59,8 @@ def solvepart2():
     global currentPatch
     for x in range(-1, len(test)):
         for y in range(-1, len(test[x])):
+            if [x, y] in known:
+                continue
             getNeighboors(x, y)
             #print(currentPatch)
             neigh = sorted(currentPatch)
